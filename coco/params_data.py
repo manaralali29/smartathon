@@ -1,0 +1,14 @@
+# Folders PATHS
+BASE_FOLDER_PATH = "./dataset"
+IMAGES_FOLDER_PATH = f"{BASE_FOLDER_PATH}/images"
+
+COCO_STYLE_FOLDER_PATH = f"{BASE_FOLDER_PATH}/smartathon"
+TRAIN_PATH = f"{COCO_STYLE_FOLDER_PATH}/images/train"
+VALIDATION_PATH = f"{COCO_STYLE_FOLDER_PATH}/images/val"
+TEST_PATH = f"{COCO_STYLE_FOLDER_PATH}/images/test"
+
+LABELS_FOLDER = f"{COCO_STYLE_FOLDER_PATH}/labels/"
+# Image Width and Height
+WIDTH = 960
+HEIGHT = 540
+
